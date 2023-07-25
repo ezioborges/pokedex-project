@@ -1,4 +1,5 @@
 import React from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { Route, Switch } from 'react-router-dom/cjs/react-router-dom.min';
 import Main from "./Pages/Main";
 import NotFound from "./Pages/NotFound";
