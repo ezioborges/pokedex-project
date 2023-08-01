@@ -1,9 +1,11 @@
-import React from "react"
+import React from "react";
+import './Login.css';
 
 export default function Login (props) {
   return (
+   <body>
     <div className="Auth-form-container d-flex justify-content-center mt-4 ">
-      <form className="Auth-form"  style={ { width: '55%', border: '1px solid black' } } >
+      <form className="Auth-form"  style={ { width: '55%' } }>
         <div className="Auth-form-content">
           <h3 className="Auth-form-title">Sign In</h3>
           <div className="form-group mt-3">
@@ -33,5 +35,6 @@ export default function Login (props) {
         </div>
       </form>
     </div>
+    </body>
   )
 }
